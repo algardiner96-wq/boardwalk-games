@@ -27,7 +27,16 @@ h3 {
     color: var(--highlight-color);
 }
 
-/* grid visulisation */
+/* Navbar Styles */
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* grid visulisation
 .container,
 row {
     border: 2px solid black;
@@ -35,4 +44,4 @@ row {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
