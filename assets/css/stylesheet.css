@@ -88,6 +88,22 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events section */
+#events .table {
+    font-size: 0.7rem;
+}
+
+.student-discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    display: block;
+    max-width: 300px;
+    color: white;
+    padding: 5px 10px;
+    margin: auto;
+    font-size: 0.8rem;
+}
+
 /* Game library cards */
 
 #new-games .card,
@@ -136,6 +152,15 @@ row {
 
 /* media queries */
 
+@media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
+    }
+}
 /* For tablets and larger screens */
 @media screen and (min-width: 768px) {
     /* Ensure all service cards have the same height */
