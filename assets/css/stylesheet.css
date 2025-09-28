@@ -31,14 +31,13 @@ h2 {
 
 h2 {
     margin-bottom: 2rem;
-    margin-top: 1rem;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
 .section {
-    padding-top: 3rem;
+    padding-top: 4rem; /* prevents navbar overlap */
 }
 
 /* Buttons */
